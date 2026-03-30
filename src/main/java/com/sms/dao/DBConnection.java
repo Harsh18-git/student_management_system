@@ -4,9 +4,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DBConnection {
-	private static final String URL ="jdbc:mysql://localhost:3306/student_management";
-	private static final String USER = "root";
-    private static final String PASSWORD = "Harsh123@";
+	private static final String URL = "jdbc:mysql://bmmunptwx8wqg5bgwjuf-mysql.services.clever-cloud.com:3306/bmmunptwx8wqg5bgwjuf";
+	private static final String USER = "uxdfdjh6m57prmys";
+	private static final String PASSWORD = "Mc92Ka0O9S3nKv3RbEvt";
     
     public static Connection getConnection() {
     	Connection con = null;
