@@ -26,7 +26,7 @@
                     <h2>Login! To Your Dashboard</h2>
                 </div>
                 <div class="box-bottom">
-                    <form action="LoginServlet" method="post">
+                    <form action="<%= request.getContextPath() %>/LoginServlet" method="post">
                       <% String error = (String) request.getAttribute("error");
                           if(error != null) { %>
                             <p style="color:red; text-align:center;"><%= error%></p>
